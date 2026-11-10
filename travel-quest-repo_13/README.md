@@ -1,6 +1,7 @@
 # TRAVEL QUEST
 旅をRPGにするWebアプリ。`app/index.html` が画面、`app/main.py` がAI（Claude）とGoogle Placesの中継サーバーです。
-
+デモURL:https://travel-quest-64w4buyleq-an.a.run.app/
+PASS:プロダクト説明ドキュメントに記載
 ## 構成
 - `app/` … Cloud Functions にデプロイする本体
 - `.github/workflows/deploy.yml` … main に push すると自動デプロイ（変数設定後のみ動作）
